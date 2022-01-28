@@ -1,0 +1,198 @@
+*
+{
+    margin: 0;
+}
+body{
+    background-color: #A69CAC;
+}
+/* ----------------------header section-------------------------- */
+header
+{
+    height: 100px;
+    display: flex;
+    background-color: #F1DAC4;
+    position: sticky;
+    top: 0;
+}
+.logo-div
+{
+        width: 100%;
+        vertical-align:baseline;
+}
+img
+{
+    width: 100%;
+    max-width: 300px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+nav
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+#first-h2{
+    text-align: center;
+    margin-top: 20px;
+}
+/* ----------------------main section-------------------------- */
+
+
+#email
+{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+
+}
+form
+{
+    width: 300px;
+    margin: 0 auto 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+input[type="submit"]
+{
+    box-sizing: border-box;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 900;
+    background-color: #F1DAC4;
+    border: none;
+}
+
+
+
+.intro-section
+{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 30px;
+        width: 100%;
+        max-width: 850px;
+        margin: 0 auto 50px;
+}
+.intro-section h1, .intro-section p
+{
+    padding: 10px;
+    font-size: 1.2em;
+
+}
+
+.intro-section h1{
+    font-size: 2rem;
+}
+.i-frameSec,.pricing-section
+{
+    display: flex;
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto 50px;
+    justify-content: space-around;
+    
+}
+.price-sec
+{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    background-color: #F1DAC4;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+.price-sec h3
+{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.price-sec p
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+button
+{
+    width: 100%;
+    max-width: 140px;
+    padding: 10px;
+    margin:5px 0;
+    font-size: 1.2rem;
+    background-color: #A69CAC;
+    border-radius: 5px;
+    border: none;
+}
+
+/* ---------------------------footer section-------------------------- */
+
+footer
+{
+    background-color: #F1DAC4;
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 100%;
+    height: 40px;
+    max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    
+}
+footer ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+
+@media screen and (max-width:570px){
+    header
+{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1DAC4;
+    position: sticky;
+    top: 0;
+}
+
+nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+
+img
+{
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+}
+
+}

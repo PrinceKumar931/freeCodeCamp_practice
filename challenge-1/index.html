@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>FCC:Survey form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main>
+        <form action="" id="survey-form">
+            <label id="name-label">Name <input type="text" name="name" id="name" placeholder="Enter your name" required></label>
+
+            <label id="email-label">Email <input type="email" name="email" id="email" placeholder="Enter your email" required></label>
+
+            <label id="number-label">Age <input type="number" name="Age" id="number" min="18" max="120" placeholder="Age" required></label>
+
+            <!-- SELECT SECTION -->
+            <p>Which option best describes your current role?   </p>
+            <select name="select-item" id="dropdown">
+                <option value="">Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full-time job">Full-time job</option>
+                <option value="Full-time learner">Full-time learner</option>
+                <option value="Other">Other</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+
+            <!-- RADIO BUTTONS -->
+            <p>Would you recomend freeCodeCamp to your friends?</p>
+            <label><input type="radio" name="feedback" value="Definitely"> Definitely</label>
+            <label><input type="radio" name="feedback" value="Maybe"> Maybe</label>
+            <label><input type="radio" name="feedback" value="Not sure"> Not sure</label>
+
+            <!-- checkboxes -->
+            <p>What would you like to see improved?(check all that apply)</p>
+            <label><input type="checkbox" name="Front-end Projects" value="Front-end Projects">Front-end Projects</label>
+            <label><input type="checkbox" name="Back-end Projects" value="Back-end Projects">Back-end Projects</label>
+            <label><input type="checkbox" name="Data Visualization" value="Data Visualization">Data Visualization</label>
+            <label><input type="checkbox" name="Challenges" value="Challenges">Challenges</label>
+            <label><input type="checkbox" name="Open Source Community" value="Open Source Community">Open Source Community</label>
+            <label><input type="checkbox" name="Gitter help rooms" value="Gitter help rooms">Gitter help rooms</label>
+            <label><input type="checkbox" name="Videos" value="Videos">Videos</label>
+            <label><input type="checkbox" name="City Meetups" value="City Meetups">City Meetups</label>
+            <label><input type="checkbox" name="wiki" value="wiki">wiki</label>
+            <label><input type="checkbox" name="Forum" value="Forum">Forum</label>
+            <label><input type="checkbox" name="Additional Courses" value="Additional Courses">Additional Courses</label>
+
+            <!-- textarea -->
+            <p>Any comments or suggestions?</p>
+            <textarea name="feedback-area" id="text-area" cols="30" rows="10"></textarea>
+
+            <!-- submit button -->
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,119 @@
+/* CSS HEX */
+/* --cafe-au-lait: #a97c4fff;
+--ghost-white: #f9fbffff;
+--prussian-blue: #1b3048ff;
+--cadet-blue: #639fabff;
+--light-steel-blue: #bbcde5ff; */
+
+/* CSS HSL */
+/* --cafe-au-lait: hsla(30, 36%, 49%, 1);
+--ghost-white: hsla(220, 100%, 99%, 1);
+--prussian-blue: hsla(212, 45%, 19%, 1);
+--cadet-blue: hsla(190, 30%, 53%, 1);
+--light-steel-blue: hsla(214, 45%, 82%, 1); */
+
+/* SCSS RGB */
+/* $cafe-au-lait: rgba(169, 124, 79, 1);
+$ghost-white: rgba(249, 251, 255, 1);
+$prussian-blue: rgba(27, 48, 72, 1);
+$cadet-blue: rgba(99, 159, 171, 1);
+$light-steel-blue: rgba(187, 205, 229, 1); */
+body
+{
+    background-image: linear-gradient(rgba(27, 48, 72, 1),rgba(99, 159, 171, 0.7),rgba(187, 205, 229, 0.5));
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    text-align: center;
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+#description{
+    margin: 0;
+    font-size: 35px;
+    font-weight:bold;
+}
+
+h1
+{
+    margin-bottom: 5px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+form
+{
+    width: 60vw;
+    max-width: 600px;
+    min-width: 300px;
+    height: 100%;
+    margin: 100px auto;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 10px  #639fabff;
+    
+}
+
+
+input
+{
+    height: 3em;
+    width: 100%;
+    font-size:15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+p
+{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select
+{
+    height: 3em;
+    font-size:15px;
+    display: block;
+    width: 100%;
+}
+label
+{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px
+}
+input[type="radio"]
+{
+    width: unset;
+    vertical-align: middle;
+    height: 1em;
+    margin: 0 ;
+
+}
+textarea
+{
+    width: 100%;    
+}
+input[type="checkbox"]
+{
+    height: 1em;
+    width: unset;
+    vertical-align: middle;
+}
+input[type="submit"]
+{
+    font-size: large;
+    display: block;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px  #639fabff;
+}

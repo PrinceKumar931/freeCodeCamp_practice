@@ -1,0 +1,164 @@
+/* CSS HEX */
+/* --rifle-green: #4D5140ff;
+--arylide-yellow: #D7C55Fff;
+--medium-carmine: #B03732ff;
+--silver-metallic: #A9A4A6ff;
+--gunmetal: #2D363Eff; */
+
+/* CSS HSL */
+/* --rifle-green: hsla(74, 12%, 28%, 1);
+--arylide-yellow: hsla(51, 60%, 61%, 1);
+--medium-carmine: hsla(2, 56%, 44%, 1);
+--silver-metallic: hsla(336, 3%, 65%, 1);
+--gunmetal: hsla(208, 16%, 21%, 1); */
+
+/* SCSS HEX */
+/* $rifle-green: #4D5140ff;
+$arylide-yellow: #D7C55Fff;
+$medium-carmine: #B03732ff;
+$silver-metallic: #A9A4A6ff;
+$gunmetal: #2D363Eff; */
+
+/* SCSS HSL */
+/* $rifle-green: hsla(74, 12%, 28%, 1);
+$arylide-yellow: hsla(51, 60%, 61%, 1);
+$medium-carmine: hsla(2, 56%, 44%, 1);
+$silver-metallic: hsla(336, 3%, 65%, 1);
+$gunmetal: hsla(208, 16%, 21%, 1);
+ */
+/* SCSS RGB */
+/* $rifle-green: rgba(77, 81, 64, 1);
+$arylide-yellow: rgba(215, 197, 95, 1);
+$medium-carmine: rgba(176, 55, 50, 1);
+$silver-metallic: rgba(169, 164, 166, 1);
+$gunmetal: rgba(45, 54, 62, 1); */
+
+
+
+
+/* ------------GLOBAL SECTION-------------- */
+html
+{
+    font-size: 25px;
+}
+body
+{
+    background-color:rgba(77, 81, 64, 0.5) ;
+    font-size: 0.8rem;
+    font-family: 'Cabin', sans-serif;
+}
+main
+{
+    width: 70vw;
+    margin: 50px auto;
+    background-color: rgba(169, 164, 166, 1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 8px rgba(77, 81, 64, 1) ;
+}
+
+
+
+/* ------------HEADER SECTION-------------- */
+h1
+{
+    margin: 0;
+}
+header
+{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(215, 197, 95, 1);
+    color: black;
+    position: sticky;
+    top: 0;
+}
+
+#description
+{
+    margin-top:10px;
+}
+
+/* ------------IMAGE SECTION-------------- */
+
+img
+{
+    
+    width: 60vw;
+    max-width: 600px;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+    box-shadow: 0 0 5px 5px rgba(45, 54, 62, 0.5);
+}
+
+figure
+{
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* ------------ABOUT SECTION-------------- */
+
+#tribute-info
+{
+    padding: 20px;
+}
+
+/* ------------PERSONAL SECTION-------------- */
+
+
+
+@media screen and (min-width:530px)
+{
+    .personal ul
+    {
+        text-align:left;
+        margin-left: 100px;
+        padding: 50px;
+        font-weight: bold;
+    }
+}
+/* ------------ACHIEVEMENT SECTION-------------- */
+
+
+
+.achievements>ol>li
+{
+    margin: 20px;
+}
+
+
+@media screen and (min-width:530px)
+{
+    .achievements
+{
+    margin-top: 30px;
+    text-align: center;
+}
+    .achievements ol
+    {
+        text-align: left;
+        padding:0 100px 100px 100px;
+        margin-top: 20px;
+    }
+}
+
+#author
+{
+    float: right;
+}
+
+blockquote
+{
+    padding: 20px;
+    border-bottom: 2px solid black;
+    border-top:2px solid black ;
+}
+
+/* ------------FOOTER SECTION-------------- */
+
+footer
+{
+    clear:both;
+}
